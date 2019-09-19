@@ -1,7 +1,7 @@
 package main
 
 import (
-	"fmt"
+	// "fmt"
 	"sort"
 )
 
@@ -46,9 +46,9 @@ func combinationSumTopDown(candidates []int, target int) [][]int {
 	})
 	r, _ := combination(candidates, target)
 	u := uniq(r)
-	for _, sub := range u {
-		fmt.Println(sub)
-	}
+	// for _, sub := range u {
+	// 	fmt.Println(sub)
+	// }
 	return u
 }
 
@@ -116,6 +116,6 @@ func combination(candidates []int, target int) ([][]int, bool) {
 	return solution, len(solution) > 0
 }
 
-func main() {
-	combinationSum([]int{2, 3, 5}, 8)
-}
+// func main() {
+// 	combinationSum([]int{2, 3, 5}, 8)
+// }
