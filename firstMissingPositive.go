@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+// "fmt"
 
 // if we have a big enough slice, say flag []bool, all value of flag are init to false
 // flag[i] == true means found value i in nums
@@ -47,8 +45,8 @@ func firstMissingPositive(nums []int) int {
 	return len(nums) + 1
 }
 
-func main() {
-	fmt.Println(firstMissingPositive([]int{1, 2, 0}))
-	fmt.Println(firstMissingPositive([]int{3, 1, 2}))
-	fmt.Println(firstMissingPositive([]int{3, 4, -1, 1}))
-}
+// func main() {
+// 	fmt.Println(firstMissingPositive([]int{1, 2, 0}))
+// 	fmt.Println(firstMissingPositive([]int{3, 1, 2}))
+// 	fmt.Println(firstMissingPositive([]int{3, 4, -1, 1}))
+// }
