@@ -1,8 +1,6 @@
 package main
 
-import (
-	"fmt"
-)
+// "fmt"
 
 func multiply(num1 string, num2 string) string {
 	result := make([]byte, 220)
@@ -62,9 +60,9 @@ func multiplyOne(num1 string, b byte, offset int, holder []byte) {
 	}
 }
 
-func main() {
-	fmt.Println(multiply("999", "999"))
-	// fmt.Println(multiply("0", "33"))
-	// fmt.Println(multiply("2", "3"))
-	// fmt.Println(multiply("123", "456"))
-}
+// func main() {
+// 	fmt.Println(multiply("999", "999"))
+// 	// fmt.Println(multiply("0", "33"))
+// 	// fmt.Println(multiply("2", "3"))
+// 	// fmt.Println(multiply("123", "456"))
+// }
